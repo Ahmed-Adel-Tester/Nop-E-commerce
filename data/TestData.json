@@ -1,0 +1,28 @@
+{
+  "Url":"https://demo.nopcommerce.com/",
+  "Register":{
+"FirstName": "Ahmed" ,
+    "LastName": "adel",
+    "Email": "ahmed1@gmail.com",
+    "Password": "Ahmed@123",
+    "ConfirmPassword": "Ahmed@123"
+  },
+  "Login": {
+      "ValidCredintails": {
+        "Email":"ahmed1@gmail.com",
+        "password": "Ahmed@123"
+      },
+      "InValidCredintails": {
+        "InvalidEmail":{
+          "Email":"ahmed@gmail..com",
+          "password": "Ahmed@123"
+},
+"InvalidPassword": {
+  "Email":"ahmed@gmail11.com",
+    "password": "Ahmed@12496"
+}
+  }
+  }
+}
+
+

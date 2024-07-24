@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Register Test">
+<!--    <test name="Register chrome">-->
+<!--        <parameter name="browser" value="headlesschrome"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="register.RegisterTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Register edge">
+        <parameter name="browser" value="edge"></parameter>
+
+        <classes>
+            <class name="register.RegisterTest"/>
+        </classes>
+    </test>
+</suite>

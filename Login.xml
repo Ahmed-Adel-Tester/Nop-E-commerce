@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Test">
+    <test name="LoginTest Chrome" >
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="login.LoginTest"></class>
+            <class name="login.InvalidUsername"></class>
+            <class name="login.InvalidPassword"></class>
+        </classes>
+<!--    </test>-->
+<!--    <test name="LoginTest edge">-->
+<!--        <parameter name="browser" value="edge"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="login.LoginTest"></class>-->
+<!--            <class name="login.InvalidUsername"></class>-->
+<!--            <class name="login.InvalidPassword"></class>-->
+<!--        </classes>-->
+    </test>
+</suite>
